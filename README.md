@@ -5,7 +5,7 @@
 <h2>Description</h2>
 <p>This project will showcase how to set up Remote Desktop access for standard (non-admin) users, automate the process of creating user accounts using PowerShell, and handle group policy management. I’ll also explore account lockout scenarios and log monitoring to reflect real-world IT challenges. Come along as I explore Active Directory deployment and strengthen system administration skills!</p>
 
-You can find the Powershell script I run in this project<a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1" target="_blank">here </a>
+You can find the Powershell script I run in this project<a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1" target="_blank"> here </a>
 
 
 <h2>Environments and Utilities Used</h2>
