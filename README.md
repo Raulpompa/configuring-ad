@@ -152,3 +152,20 @@ However, you’ll notice that access to these logs is restricted, as standard us
   <p>Here, you’ll find detailed information such as successful and failed logon attempts, which user attempted to log in, the IP address or device they attempted it from, and the exact date and time each event occurred. This is especially useful for auditing and troubleshooting login issues or suspicious activity.</p>
 <img src="https://i.imgur.com/ImsKpDi.png"  alt="auditing and troubleshooting login issues or suspicious activity"/>
 </p>
+<h2>Active Directory: Creating Users, Group Policy, and Managing Accounts in Azure is Now Complete!</h2>
+
+<p> You've successfully gone through:
+
+--Creating and managing users in PowerShell
+
+--Organizing users into OUs
+
+--Setting up and enforcing Group Policy
+
+--Testing account lockouts
+
+--Unlocking and disabling accounts
+
+--Viewing event logs for security auditing
+</p>
+<p>All of this closely mirrors what IT professionals handle daily in real-world Active Directory environments.</p>
