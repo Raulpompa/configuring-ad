@@ -96,22 +96,22 @@
 </p>
 <p>
   <p></p> 
-<img src="https://i.imgur.com/GRSEAhc.jpeg" alt="command prompt"/>
+<img src="https://i.imgur.com/mGPhZy8.jpeg" alt="command prompt"/>
 </p>
 <p>
-  <p></p>
-<img src=""  alt=""/>
+  <p>Now, sign out of client-1, then try signing back in using the test user account—but enter an incorrect password five times. After the fifth failed attempt, a lockout message will appear, indicating that the account has been temporarily locked due to too many invalid login attempts.</p>
+<img src="https://i.imgur.com/XB8uhIR.png"  alt="lockout from client-1"/>
 </p>
 <p>
-  <p></p>
-<img src="" alt=""/>
+  <p>To unlock the user’s account, go back to the Domain Controller and open Active Directory Users and Computers. Navigate to mydomain.com > _EMPLOYEES, find and double-click the locked-out user, go to the Account tab, then check the box labeled "Unlock account" to restore access.</p>
+<img src="https://i.imgur.com/xTrG3kZ.png" alt="restore access to user c-1"/>
 </p>
 <p>
   <p></p> 
-<img src="" alt=""/>
+<img src="https://i.imgur.com/rseaSzN.png" alt="account policy"/>
 </p>
 <p>
-  <p></p>
+  <p>Alternatively, you can right-click the user account and select Reset Password. In that window, there’s an option to "Unlock user’s account", allowing you to unlock the account and change the password simultaneously.</p>
 <img src=""  alt=""/>
 </p>
 <p>
