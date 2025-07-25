@@ -157,15 +157,11 @@ However, you’ll notice that access to these logs is restricted, as standard us
 <p> We've successfully gone through:
 
 -Creating and managing users in PowerShell
-
 -Organizing users into OUs
-
 -Setting up and enforcing Group Policy
-
 -Testing account lockouts
-
 -Unlocking and disabling accounts
-
 -Viewing event logs for security auditing
+
 </p>
 <p>All of this closely mirrors what IT professionals handle daily in real-world Active Directory environments.</p>
