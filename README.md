@@ -104,23 +104,19 @@
 </p>
 <p>
   <p>To unlock the user’s account, go back to the Domain Controller and open Active Directory Users and Computers. Navigate to mydomain.com > _EMPLOYEES, find and double-click the locked-out user, go to the Account tab, then check the box labeled "Unlock account" to restore access.</p>
-<img src="https://i.imgur.com/xTrG3kZ.png" alt="restore access to user c-1"/>
+<img src="https://i.imgur.com/rseaSzN.png" alt="restore access to user c-1"/>
 </p>
 <p>
-  <p></p> 
-<img src="https://i.imgur.com/rseaSzN.png" alt="account policy"/>
-</p>
-<p>
-  <p>Alternatively, you can right-click the user account and select Reset Password. In that window, there’s an option to "Unlock user’s account", allowing you to unlock the account and change the password simultaneously.</p>
-<img src=""  alt=""/>
+  <p>Now the USER can sign into Client-1.</p>
+<img src="https://i.imgur.com/hEhD0Oa.png"  alt="login after unlock"/>
 </p>
 <p>
   <p></p>
-<img src="" alt=""/>
+<img src="https://i.imgur.com/5OhEweb.png" alt=""/>
 </p>
 <p>
   <p></p> 
-<img src="" alt=""/>
+<img src="https://i.imgur.com/as8Mem8.jpeg" alt=""/>
 </p>
 <p>
   <p></p>
