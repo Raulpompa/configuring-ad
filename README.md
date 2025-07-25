@@ -5,6 +5,9 @@
 <h2>Description</h2>
 <p>This project will showcase how to set up Remote Desktop access for standard (non-admin) users, automate the process of creating user accounts using PowerShell, and handle group policy management. I’ll also explore account lockout scenarios and log monitoring to reflect real-world IT challenges. Come along as I explore Active Directory deployment and strengthen system administration skills!</p>
 
+<a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1" target="_blank">View My </a>
+
+
 <h2>Environments and Utilities Used</h2>
 
 - Microsoft Azure
@@ -112,25 +115,40 @@
 </p>
 <p>
   <p></p>
-<img src="https://i.imgur.com/5OhEweb.png" alt=""/>
+<img src="https://i.imgur.com/5OhEweb.png" alt="login access"/>
 </p>
 <p>
   <p></p> 
-<img src="https://i.imgur.com/as8Mem8.jpeg" alt=""/>
+<img src="https://i.imgur.com/as8Mem8.jpeg" alt="login access command prompt"/>
 </p>
 <p>
-  <p></p>
-<img src=""  alt=""/>
+  <p>To disable a user account, go to the Domain Controller, open Active Directory Users and Computers, navigate to mydomain.com > _EMPLOYEES, right-click the user you want to disable, and select Disable Account from the context menu.</p>
+<img src="https://i.imgur.com/Wf91zjN.png"  alt="disable account"/>
 </p>
 <p>
-  <p></p>
-<img src="" alt=""/>
+  <p>If you sign out of client-1 and attempt to log back in with the disabled account, you’ll receive a message stating:
+“Your account has been disabled. Please see your system administrator.</p>
+<img src="https://i.imgur.com/JvPgLnn.png" alt="disabled completed"/>
 </p>
 <p>
-  <p></p> 
-<img src="" alt=""/>
+  <p>To re-enable the user account, go back to the Domain Controller, open Active Directory Users and Computers, right-click on the disabled user, and select Enable Account.</p> 
+<img src="https://i.imgur.com/kePlXLk.png" alt="account enabled"/>
 </p>
 <p>
-  <p></p>
-<img src=""  alt=""/>
+  <p>The user can now successfully log into client-1. Once logged in, let’s open the Event Viewer to check security logs. Search for "Event Viewer" in the Start menu, then navigate to Windows Logs > Security.
+
+However, you’ll notice that access to these logs is restricted, as standard users do not have permission to view them.</p>
+<img src="https://i.imgur.com/QKGPARC.png"  alt="security logs"/>
+</p>
+<p>
+  <p>This restriction is due to the fact that we're not signed in as an administrator. But no need to log out and switch users—we already know Jane's admin credentials. Simply close the Event Viewer, then right-click it and choose "Run as administrator." A pop-up will appear prompting you to enter admin credentials; enter Jane’s login details to proceed with elevated access.</p>
+<img src="https://i.imgur.com/Buyezu1.png" alt="sgined in as admin"/>
+</p>
+<p>
+  <p>Now that we've launched Event Viewer with administrative privileges, we can navigate back to Windows Logs > Security, and this time, we’ll have full access to view the security event logs.</p> 
+<img src="https://i.imgur.com/SvfsPwH.png" alt="window logs"/>
+</p>
+<p>
+  <p>Here, you’ll find detailed information such as successful and failed logon attempts, which user attempted to log in, the IP address or device they attempted it from, and the exact date and time each event occurred. This is especially useful for auditing and troubleshooting login issues or suspicious activity.</p>
+<img src="https://i.imgur.com/ImsKpDi.png"  alt="auditing and troubleshooting login issues or suspicious activity"/>
 </p>
